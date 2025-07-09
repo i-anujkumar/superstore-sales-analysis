@@ -25,10 +25,12 @@ This project uses the [Superstore dataset](https://www.kaggle.com/datasets/vivek
 
 ## 📊 Key Insights
 
-- Category-wise and Sub-Category-wise sales and profit patterns
-- Best and worst performing cities by total profit
-- Discount impact on profitability
-- Regional analysis of product performance
+- 📦 **Technology** sub-category generated high sales with very high profits.
+- 🏙️ Cities like **New York** and **Los Angeles** lead in both sales and profits.
+- ❌ Cities such as **Philadelphia** showed high sales but negative profits — indicating discount or supply issues.
+- 🧾 **High Discounts often led to Negative Profit**, especially in Office Supplies.
+- 🧭 The **West and East regions** had the best overall profitability.
+
 
 ---
 
