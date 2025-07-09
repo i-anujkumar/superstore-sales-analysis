@@ -34,9 +34,8 @@ This project uses the [Superstore dataset](https://www.kaggle.com/datasets/vivek
 
 ## 🗂️ Project Structure
 
-superstore-sales-analysis/
-│
-├── superstore_analysis.ipynb # Main analysis notebook
-├── Superstore.csv # Dataset from Kaggle
-└── README.md
+- `superstore_analysis.ipynb` → Main notebook with analysis
+- `Superstore.csv` → Dataset from Kaggle
+- `README.md` → Project overview and documentation
+
 
