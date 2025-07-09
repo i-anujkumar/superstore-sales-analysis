@@ -1,43 +1,57 @@
+# 🛍️ Superstore Sales Analysis
 
-# 🛒 Superstore Sales Analysis
-
-This project performs exploratory data analysis (EDA) on a retail dataset to uncover key insights about sales, profits, discounts, and customer segments. The goal is to understand business performance using Python and data visualization.
-
----
-
-## 📂 Dataset Source
-
-This project uses the [Superstore dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final?select=Sample+-+Superstore.csv) available on Kaggle.
-
-> The dataset is provided by the original uploader on Kaggle and is used here strictly for **educational and non-commercial** purposes.  
-> All rights belong to the original owner.
+This project analyzes the sales data of a retail superstore to extract actionable insights using Python and data visualization tools. It includes exploratory data analysis, visual dashboards, and an interactive Streamlit app.
 
 ---
 
-## 🧰 Tools & Libraries Used
+## 📂 Project Structure
 
-- Python
-- Pandas & NumPy
-- Matplotlib & Seaborn
-- Jupyter Notebook / Google Colab
+- `superstore_analysis.ipynb` → Main notebook with sales & profit analysis
+- `Superstore.csv` → Dataset from Kaggle
+- `streamlit_app.py` → Streamlit dashboard script
+- `README.md` → Project overview and instructions
 
 ---
 
 ## 📊 Key Insights
 
-- 📦 **Technology** sub-category generated high sales with very high profits.
-- 🏙️ Cities like **New York** and **Los Angeles** lead in both sales and profits.
-- ❌ Cities such as **Philadelphia** showed high sales but negative profits — indicating discount or supply issues.
-- 🧾 **High Discounts often led to Negative Profit**, especially in Office Supplies.
-- 🧭 The **West and East regions** had the best overall profitability.
-
+- **Technology** sub-category had highest sales and profitability
+- **Cities** like New York and Los Angeles led in profit
+- Some cities showed high sales but **negative profit**, possibly due to discounting
+- **Office Supplies** generated large sales but low profits
+- **High discounts** often resulted in **negative profit** trends
 
 ---
 
-## 🗂️ Project Structure
+## 🚀 Streamlit Dashboard
 
-- `superstore_analysis.ipynb` → Main notebook with analysis
-- `Superstore.csv` → Dataset from Kaggle
-- `README.md` → Project overview and documentation
+This project includes an interactive dashboard built with [Streamlit](https://streamlit.io/).
 
+### ▶️ To Run It Locally:
 
+```bash
+streamlit run streamlit_app.py
+```
+
+### Features:
+- Filter by region and category
+- Sales and profit KPIs
+- Bar charts by category and city
+- Discount vs profit scatter
+- Pie chart for region-wise sales
+
+---
+
+## 📦 Dataset Source
+
+Kaggle: [Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+
+---
+
+## 📄 License
+
+This project is licensed for educational use. Dataset is sourced from Kaggle and subject to their terms of use.
+
+---
+
+Made with ❤️ by Anuj Kumar
