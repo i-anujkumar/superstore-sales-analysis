@@ -30,7 +30,7 @@ This project includes an interactive dashboard built with [Streamlit](https://st
 ### ▶️ To Run It Locally:
 
 ```bash
-streamlit run streamlit_app.py
+streamlit run superstore_dashboard.py
 ```
 
 ### Features:
